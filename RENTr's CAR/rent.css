@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Noto Sans Georgian,sans-serif;
+    background-color: rgb(26, 30, 36);
+
+}
+
+
+
+.form{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+
+.rent-info{
+    width: 90%;
+    max-width: 600px;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f0f8ff;
+    padding: 50px 60px 350px;
+    border-radius: 5px;
+    border: 0.05rem solid rgb(209, 208, 208);
+    color: #444444;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.rent-info .model{
+    padding-bottom: 1rem;
+    font-weight: 800;
+    font-family: Noto Sans Georgian,sans-serif;
+}
+
+.rent-info .name{
+    font-size: 0.9rem;
+    padding-bottom: 0.5px;
+    font-weight: 800;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.rent-info .seat{
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding-top: 0.5rem;
+
+}
+.rent-info .days{
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding-top: 0.5rem;
+
+}
+.rent-info .totals{
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding-top: 3.5rem;
+    background-color: #f0f8ff;
+    color: #444444;
+    width: 6rem;
+    border-radius: 3px;
+    margin-left: 5rem;
+    font-family: Noto Sans Georgian,sans-serif;
+
+}
+.rent-info .cars{
+    margin-top: 1rem;
+    background-color: #f0f8ff;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 1rem;
+}
+.btnconfirm{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+    border-radius: 3px;
+    border: #616161b0;
+    background: #08243ae3;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f0f8ff;
+    font-family: Noto Sans Georgian,sans-serif;
+}
+.labeling{
+    display: block;
+    font-family: Noto Sans Georgian,sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0 auto 20px;
+    text-align: center;
+    color: #08243ae3;
+}
+
+
